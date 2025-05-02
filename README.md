@@ -6,3 +6,13 @@ Uploaded notes used in previous meetings.
 
 > **Todo:**
 > - Try to reproduce the basic functions of EdgeShard
+
+## 2025-04-18
+Shard demo
+
+## 2025-05-02
+Improved demo, test results(Inference speed only)
+> **Todo:**
+> - Improve Inferencing speed
+> - Test Inference quality
+> - Try larger model
