@@ -16,3 +16,10 @@ Improved demo, test results(Inference speed only)
 > - Improve Inferencing speed
 > - Test Inference quality
 > - Try larger model
+
+## 2025-05-09
+gRPC_test, used gRPC to replace flask
+used llama-3.2-3B instead of 1B
+resources monitor added
+> **Todo:**
+> - Improve Inferencing speed (what to transmit?)
