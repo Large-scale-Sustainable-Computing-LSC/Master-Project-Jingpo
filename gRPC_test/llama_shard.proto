@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+message TensorData {
+    bytes tensor_bytes = 1;
+    repeated int32 shape = 2;
+    string dtype = 3;
+}
+
+message InitRequest {
+    int32 layer = 1;
+}
+
+message HiddenRequest {
+    TensorData hid = 1;
+    TensorData att = 2;
+    TensorData pos = 3;
+    TensorData gen = 4;
+}
+
+message HiddenResponse {
+    TensorData att = 2;
+    TensorData pos = 3;
+    TensorData gen = 4;
+}
+
+message Init_res {
+    int32 res = 99;
+}
+
+message TestTensor {
+    TensorData tensor = 1;
+}
+
+service ShardService {
+    rpc InitConnection(InitRequest) returns (Init_res);
+    rpc ProcessHidden(HiddenRequest) returns (HiddenResponse);
+    rpc TestTensorMethod(TestTensor) returns (TestTensor);
+}
