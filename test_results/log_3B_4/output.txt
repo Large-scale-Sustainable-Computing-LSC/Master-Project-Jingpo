@@ -1,0 +1,639 @@
+output
+[0]:  11.3
+
+Passage: The 2008–09 season was the 103rd season of the Los Angeles Lakers franchise, their 63rd
+
+
+[26]:  7,000
+
+Passage: The 2014–15 NBA season is the 69th season of the National Basketball Association. The regular season began
+
+
+[52]:  0.25
+
+Passage: The 2014 FIFA World Cup was the 20th FIFA World Cup, an international football tournament contested by the men
+
+
+[78]:  36 and 35
+
+Passage: The 2011 NFL season was the 92nd season of the National Football League. The season began on Thursday
+
+
+[104]:  Families
+
+Passage: The 2008–09 season was the 103rd season of the National Hockey League (NHL). The regular season began on
+
+
+[130]:  41
+
+Passage:  The Chiefs played the defending AFC Champion New England Patriots, and were 16 &#189;-point underdogs entering the game.
+
+
+[156]:  13
+
+Passage: The Cowboys finished the season 12-4, and won the NFC East for the first time since 2009. They also
+
+
+[182]:  the Rams
+
+Passage:  The 2008–09 season was the 82nd season for the Los Angeles Lakers in the National Basketball Association, and
+
+
+[208]:  5.5%
+
+Passage: The 2000 census reported that the population in the city was 1,000, with 1,000 households
+
+
+[234]:  14
+
+Passage:  Coming off their divisional road win over the Bengals, the Ravens flew to Arrowhead Stadium for a Week 5 interconference
+
+
+[260]:  2
+
+Passage: The 2009–10 season was the 109th season of competitive football in England. It was the 78th season
+
+
+[286]:  1
+
+Passage: The 2017 Detroit Lions season was the franchise's 98th season overall and their 97th season in the National Football
+
+
+[312]:  Falcons
+
+Passage:  The 2011–12 NBA season was the 66th season of the National Basketball Association. The regular season began on October
+
+
+[338]:  Melilla
+
+Passage: The 2013–14 season was the 102nd season of competitive football in England. It was the 24th season
+
+
+[364]:  37.40%
+
+Passage: The city is served by the Cleveland Hopkins International Airport, which is the 45th busiest airport in the United States.
+
+
+[390]:  1,000
+
+Passage: The 2014 census showed that 1,853,807 or 63,2% of the population live in
+
+
+[416]:  46
+
+Passage:  The 2011 NFL season was the 92nd season of the National Football League. The season began on September 8
+
+
+[442]:  1
+
+Passage: The 49ers' home opener was against the Seahawks.  In the first quarter, the 49ers got a 1
+
+
+[468]:  Nastola
+
+Passage: The 2006–07 season was the 106th season of the English Football League. The season began on 11
+
+
+[494]:  Indians and Bangladeshis
+
+Passage: The 2004–05 season was the 103rd season of the National Hockey League (NHL). The regular
+
+
+[520]:  two or more races
+
+Passage: The 2008–09 season was the 103rd season of the National Hockey League (NHL). The regular
+
+
+[546]:  25,179
+
+Passage: The 2011 census recorded a population of 1,234,000, of which 1,000,000
+
+
+[572]:  3
+
+Passage: The New York Giants defeated the Philadelphia Eagles 27-0 at MetLife Stadium.  The Giants had not beaten the Eagles since
+
+
+[598]:  3
+
+Passage: The 2010–11 season was the 103rd season of the National Hockey League (NHL). The regular season began
+
+
+[624]:  22
+
+Passage: The 2008–09 NBA season was the 63rd season of the National Basketball Association. The regular season began on October
+
+
+[650]:  the Bengals
+
+Passage:  The Bengals would remain at home for a game against the Browns.  In the first quarter, the Bengals took an early lead
+
+
+[676]:  1,177
+
+Passage: The 2016 season was the 97th season for the Chicago Bears. The Bears finished the season 3–
+
+
+[702]:  11.3% and 32.7%
+
+Passage: The 2016–17 Pittsburgh Penguins season was the franchise's 48th season,
+
+
+[728]:  14.8
+
+Passage: The 2010 United States Census reported that Orem had a population of 82,808. The population density was
+
+
+[754]:  $3,068
+
+Passage: The 2006 Canadian census revealed that the average family income in Kensington was $61,339, compared to the City
+
+
+[780]:  827
+
+Passage: The 2016–17 UEFA Champions League group stage began on 13 September 2016 and ended on 7 December 
+
+
+[806]:  196
+
+Passage: The 1992-93 Chicago Bulls season was the 27th season of the Chicago Bulls in the National Basketball Association (N
+
+
+[832]:  3
+
+Passage: The 2007 season was the 100th season for the New York Giants. The Giants finished the season with a 10
+
+
+[858]:  6
+
+Passage:  The 49ers would get the first points of the game as quarterback Alex Smith found running back Frank Gore on a 12
+
+
+[884]:  74.4% Race (United States Census), 20.4% Race (United States Census) or Race (United States Census)
+
+Passage:
+
+
+[910]:  1
+
+Passage:  The Saints opened the regular season on the road against the Cleveland Browns on September 10.  In the first half, kicker
+
+
+[936]:  May
+
+Passage: The 2008–09 NBA season was the 63rd season of the National Basketball Association. The regular season began on October 
+
+
+[962]:  8.0
+
+Passage: In 2000, there were 149,957 households out of which 18.30% had children under the
+
+
+[988]:  3
+
+Passage: The 2014 NFL season was the 95th season of the National Football League. The season began on Thursday, September 
+
+
+[1014]:  2
+
+Passage:  The New York Giants defeated the Philadelphia Eagles 13-3 at Giants Stadium in East Rutherford, New Jersey. The Giants
+
+
+[1040]:  Isaac Bruce
+
+Passage: Coming off their bye week, the Cowboys went home for a Week 11 NFC East duel with the New York Giants.  In
+
+
+[1066]:  9.6
+
+Passage: The 2008 season was the first season in which the team played in a new stadium, the Georgia Dome. The
+
+
+[1092]:  Randy Moss
+
+Passage:  The 2009–10 season was the 93rd season for the New York Giants of the National Football League. The
+
+
+[1118]:  Race and ethnicity in the United States Census, 0.69% Race and ethnicity in the United States Census, 0.05% Race and ethnicity in
+
+
+[1144]:  1.3%
+
+Passage: The 2011 NFL season was the 92nd season of the National Football League. The season began on September 
+
+
+[1170]:  rice, mung bean, soy and Azuki bean beans
+
+Passage: The 2014 NFL season was the 95th season of the National Football
+
+
+[1196]:  Males
+
+Passage: The 2010 United States Census reported that the population in the city was 1,200. The population density was 1
+
+
+[1222]:  1,400,000
+
+Passage: The 2010 United States Census reported that the city had a population of 1,000. The population
+
+
+[1248]:  7
+
+Passage: The 8th SS Cavalry Division Florian Geyer was a German Waffen-SS division formed in 1943. It
+
+
+[1274]:  18-24, 45-64
+
+Passage: The 2016 season was the 100th season in the history of the New York Giants
+
+
+[1300]:  3
+
+Passage: The Eagles' seventh game was a NFC duel against the Giants at home. In the first quarter the Eagles struck first as QB Michael
+
+
+[1326]:  27
+
+Passage: The Buccaneers traveled to M&T Bank Stadium to face the Baltimore Ravens. In a largely defensive game, the teams traded field goals in
+
+
+[1352]:  Matt Hasselbeck
+
+Passage: The New York Giants traveled to the Meadowlands to take on the New York Jets in a battle of two teams that were
+
+
+[1378]:   52
+
+Passage:  Hoping to rebound from their Week 1 loss to the Eagles, the Vikings flew to the University of Phoenix Stadium for
+
+
+[1404]:  99.85%
+
+Passage: The 2008 season was the 79th season for the Green Bay Packers. The Packers finished the regular season with
+
+
+[1430]:  had retaken their major fort
+
+Passage: The 2015–16 season was the 100th season of competitive football in the Republic of Ireland.
+
+
+[1456]:  33.46
+
+Passage: The 2014–15 season was the 53rd season of the English Football League Championship, the second tier of
+
+
+[1482]:  745
+
+Passage: The 2009–10 season was the 109th season of competitive football in England. It was the 78th season
+
+
+[1508]:  74
+
+Passage:  The Ravens were looking to rebound from their Week 1 loss to the Steelers.  The Ravens scored the first points of the
+
+
+[1534]:  23.50
+
+Passage: The county population was spread out with 26.20% under the age of 18, 9.30%
+
+
+[1560]:  54-yard
+
+Passage:  The game started with the teams trading punts, and when Houston attempted a punt from the Jets' 37-yard line
+
+
+[1586]:  69
+
+Passage: The 2016 NFL season is the 97th season of the National Football League. The season began on Thursday, September 
+
+
+[1612]:  23.2
+
+Passage: The 2006-2007 season was the 82nd season for the National Hockey League. The regular season began
+
+
+[1638]:   44
+
+Passage: The first season of the American television series The X-Files premiered on September 10, 1993, and concluded on
+
+
+[1664]:  76.5
+
+Passage: The 2006–07 season was the 103rd season of the English Football League. The season began on 
+
+
+[1690]:  The evacuees
+
+Passage: The 2014–15 New York Knicks season was the 69th season of the New York Knicks in the National
+
+
+[1716]:  0.0497
+
+Passage: The 2008–09 NBA season was the 63rd season of the National Basketball Association. The season began
+
+
+[1742]:  3
+
+Passage: The 2008–09 NBA season was the 63rd season of the National Basketball Association. The regular season began on October
+
+
+[1768]:  65 years of age or older
+
+Passage: The county is divided into 13 townships. The townships are: 1.  Town
+
+
+[1794]:  8
+
+Passage:  The Patriots returned to the field for a Monday Night Football matchup with the New York Jets. The Patriots took the early lead,
+
+
+[1820]:  53.3%
+
+Passage: The 2010 census reported that the population of the United States was 308,745,538.  The racial
+
+
+[1846]:  Mark Sanchez
+
+Passage:  The New York Giants defeated the Philadelphia Eagles, 29-16, on Sunday afternoon at Lincoln Financial Field.  The Giants
+
+
+[1872]:  1.8%
+
+Passage: The 2010 United States Census reported that the city had a population of 1,000. The population density was
+
+
+[1898]:  Hernán Peraza The Elder
+
+Passage: The 2014–15 UEFA Champions League was the 60th season of Europe's premier club football tournament
+
+
+[1924]:  326
+
+Passage: The 2008 Chicago Bears season was the franchise's 89th season in the National Football League, the 89th season
+
+
+[1950]:  45,000 and 8,000
+
+Passage: The 2008–09 global financial crisis  was a period of financial crisis that began in
+
+
+[1976]:  21.4%
+
+Passage: The 2008–09 season was the 100th season of competitive football in the United States. The season began
+
+
+[2002]:  5
+
+Passage: The 2010 FIFA World Cup was the 19th FIFA World Cup, the quadrennial international football world championship tournament
+
+
+[2028]:  2,941
+
+Passage: As of the census of 2000, there were 1,010,000 people, 373,000 households
+
+
+[2054]:  The railroad extension
+
+Passage: The 2015–16 UEFA Champions League is the 61st season of Europe's premier club football tournament organised by UEFA
+
+
+[2080]:  Game 3
+
+Passage: The Cowboys began their 2007 campaign at home against their NFC East rival, the New York Giants.  In the first
+
+
+[2106]:  1
+
+Passage: The 2006 NFL season was the 87th regular season of the National Football League. The season began on September 7
+
+
+[2132]:  275000
+
+Passage: The 2010 census reported a population of 1,000,000, a 1.2% increase from the
+
+
+[2158]:  2
+
+Passage:  The Vikings flew to the desert for a Week 15 duel with the Lions. In the first quarter, the Vikings got on
+
+
+[2184]:  large galleys
+
+Passage: The 2010 census reported a population of 1,000,000 people in the city, making it the 
+
+
+[2210]:  McT. Kahin Prize
+
+Passage: The 2013–14 season was the 25th season of the Premier League, the top English professional
+
+
+[2236]:  1,800
+
+Passage: The 2008 South Ossetia war was a military conflict between Georgia and Russia that began on 7 August 
+
+
+[2262]:  25 to 44
+
+Passage: The 2012 NFL season was the 93rd season of the National Football League. The season began on Thursday
+
+
+[2288]:  45 to 64
+
+Passage: The 2010 United States Census reported that the city had a population of 1,000. The population density
+
+
+[2314]:  1.2
+
+Passage: The 49ers began their 2008 campaign at home against their NFC West foe, the Arizona Cardinals.  In
+
+
+[2340]:  5734
+
+Passage: The city is located on the banks of the River Tiber, 16 km (9.9 mi) from the Ty
+
+
+[2366]:  99.4
+
+Passage: The 2010 United States Census reported that the population of the city of San Francisco was 805,235, a
+
+
+[2392]:  10,000
+
+Passage: The first known use of the word "sophisticated" was in 1590. The word "soph
+
+
+[2418]:  1.4 million
+
+Passage: The 1917 October Revolution was a major turning point in world history. It was the first time that a socialist
+
+
+[2444]:  19
+
+Passage: The 1984 San Francisco 49ers season was the franchise's 35th season in the National Football League, the 
+
+
+[2470]:  98.7
+
+Passage: The median income for a household in the county was $48,000, and the median income for a family was $
+
+
+[2496]:  44.13
+
+Passage: The 2008–09 season was the 103rd season of the Los Angeles Lakers in the National Basketball Association (
+
+
+[2522]:  7.8
+
+Passage: The 2010 United States Census reported that the city had a population of 1,337,430. The population
+
+
+[2548]:  90.50
+
+Passage: The 2007 season was the 82nd season for the franchise. The team failed to make the playoffs for the
+
+
+[2574]:  Iran and Iraq
+
+Passage: The 2008–09 NBA season was the 63rd season of the National Basketball Association. The regular season began on
+
+
+[2600]:  22,018
+
+Passage: The 2006–07 season was the 107th season of the English Football League Championship, the second tier of
+
+
+[2626]:  2,000
+
+Passage: The 2011–12 season was the 102nd season of competitive football in the English Football League. The season
+
+
+[2652]:  20
+
+Passage: The 2008–09 NBA season was the 63rd season of the National Basketball Association. The season began on October 
+
+
+[2678]:  21
+
+Passage: The 2007 NBA Playoffs began on April 20, 2007, with the first round of the playoffs. The
+
+
+[2704]:  3,585
+
+Passage: The 2014–15 season was the 53rd season of the Indian Super League, the top professional football league
+
+
+[2730]:  18 to 24
+
+Passage: The 2008–09 season was the 103rd season of the National Hockey League. The regular season began
+
+
+[2756]:  31.2%
+
+Passage: The Bucs entered week 7 against an Eagles team looking to build upon their 14-13 win over the Bengals
+
+
+[2782]:  1,800,000
+
+Passage: The 2010 NFL season was the 91st season of the National Football League. The season began on
+
+
+[2808]:   information industry
+
+Passage: The 2008–2012 recession was the most severe economic downturn since the Great Depression of the 1930s.
+
+
+[2834]:  Nintendo Entertainment System
+
+Passage: The 1986 season was the 17th season for the New York Jets of the National Football League. The Jets finished
+
+
+[2860]:  2010
+
+Passage: The 2008–09 recession was a severe worldwide economic downturn that began in late 2008 and ended in mid-
+
+
+[2886]:  8,628
+
+Passage: The 2006–07 season was the 106th season of competitive football in England. It was the 15
+
+
+[2912]:  Randy McMichael
+
+Passage:  Starting lineups: HOUSTON - OFFENSE: QB Matt Schaub, LT Duane Brown, LG Wade Smith
+
+
+[2938]:  42,000
+
+Passage: The 2008–09 season was the 107th season of the Los Angeles Lakers in the National Basketball Association (
+
+
+[2964]:  3
+
+Passage:  The 49ers were coming off a bye week and were looking to get back on track after a loss to the Cardinals.
+
+
+[2990]:  2
+
+Passage:  The Browns returned home to face the NFC West-leading Seattle Seahawks in a late afternoon game.  The Seahawks struck first as Matt
+
+
+[3016]:  82.39%
+
+Passage: The 2008–09 NBA season was the 63rd season of the National Basketball Association. The season began on
+
+
+[3042]:  59,000
+
+Passage: The 2008–09 season was the 103rd season of the National Football League (NFL). The season began
+
+
+[3068]:  10
+
+Passage:  The 2012–13 season was the 102nd season of competitive football in England. The season began on 18
+
+
+[3094]:  6000
+
+Passage: The 49ers were the first team to win a Super Bowl in their home stadium, and the first team to win a
+
+
+[3120]:  2,901
+
+Passage: The rebellion was led by Charles Neville, 6th Earl of Westmorland, and Thomas Percy, 7th
+
+
+[3146]:  1:30
+
+Passage:  The 2015–16 season was the 25th season of the New York Knicks in the National Basketball Association
+
+
+[3172]:  86,000
+
+Passage: The 2010 census reported that the city had a total area of 1.2 square miles (3.1
+
+
+[3198]:  9
+
+Passage:  The Saints opened the regular season on the road against the Cleveland Browns on September 10.  In the first half, kicker
+
+
+[3224]:  1910 and 1911
+
+Passage: The 2008 Mongolian parliamentary election was held on 28 June 2008. The election was
+
+
+[3250]:  15
+
+Passage:  The 2016 NFL season was the 97th season of the National Football League (NFL). The season began on September
+
+
+[3276]:  40 and older
+
+Passage: The 2010 census reported that the population of the city was 1,000, with a population density of 
+
+
+[3302]:  3
+
+Passage: The 2004–05 New York Rangers season was the 78th season for the team in the National Hockey League (N
+
+
