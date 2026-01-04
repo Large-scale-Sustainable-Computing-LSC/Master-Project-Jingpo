@@ -1,0 +1,641 @@
+output
+[0]:  250,291
+
+Passage: The 2008 NFL season was the 89th regular season of the National Football League. The regular season began on
+
+
+[26]:  3
+
+Passage: The 1918-19 winter was the coldest in the 20th century. The average temperature in the United States was
+
+
+[52]:  5
+
+Passage: The 2006–07 season was the 50th anniversary of the show. The show was renewed for a 10th
+
+
+[78]:  27
+
+Passage:  The 2009 season was the 100th season of the NFL.  The 2009 season was the 100
+
+
+[104]:  31
+
+Passage:  The Patriots traveled to the New York Jets to face the 5-3 Jets at MetLife Stadium. The Patriots took an
+
+
+[130]:  5
+
+Passage:  The Bears were able to get a 3-0 lead in the first quarter as QB Kyle Orton completed a 1
+
+
+[156]:  76.21%
+
+Passage: The 2000 census reported that the city had a population of 102,121, up from 101,000
+
+
+[182]:  Jacoby Jones
+
+Passage:  Hoping to rebound from their divisional loss to the Jaguars, the Texans stayed at home for a Week 4 duel
+
+
+[208]:  1.87% of the population were two or more races
+
+Passage: The 2000 United States Census reported that the population of the county was
+
+
+[234]:  White
+
+Passage: The 2010 United States Census reported that Huntington Beach had a population of 189,992. The population density was 5,
+
+
+[260]:  Filipinos
+
+Passage: The 2013 NFL season was the 94th season of the National Football League.  The season began on September 5
+
+
+[286]:  5
+
+Passage:  The Browns opened division play in a week 5 battle with the Baltimore Ravens.  Ravens QB Joe Flacco entered this game
+
+
+[312]:  10
+
+Passage: The 2015–16 season was the 96th season of the National Basketball Association (NBA). The season began on
+
+
+[338]:  3
+
+Passage: The 2010 census reported that the population of the county was 50,251.  The population density was 90 people
+
+
+[364]:  St. Louis Rams
+
+Passage: The 2008–09 season was the 100th season of the National Basketball Association (NBA). The season
+
+
+[390]:  2
+
+Passage: The 2013 NFL season was the 94th season of the National Football League. The season began on September 8,
+
+
+[416]:  1
+
+Passage: The 1968-69 season was the first season of the NFL's AFL-NFL merger. The AFL champion Kansas City Chiefs
+
+
+[442]:  Romania, Laconia, Messenia, Achaea
+
+Passage: The Treaty of Karlowitz, signed in January 1699, confirmed the Ven
+
+
+[468]:  5.5
+
+Passage: 1. The average age of the population of the United States in 2000 was 35.2 years.
+
+
+[494]:  Roman Catholic Church
+
+Passage: The 2006–07 season was the 108th season of the National Football League. The season began on September 
+
+
+[520]:  2.96
+
+Passage: The population was spread out with 25.30% under the age of 18, 8.20% from
+
+
+[546]:  50.0%
+
+Passage: The 2008–09 season was the 100th season of the National Basketball Association (NBA). The season
+
+
+[572]:  2
+
+Passage: The 2006 census carried out by Northern Cyprus, showed that there were 256,644 (de jure) people living
+
+
+[598]:  Female
+
+Passage: The 2013-2014 school year was the 10th year of the 21st century. The 21st century
+
+
+[624]:  13.5
+
+Passage: The average temperatures in January, coldest month, are, Luang Prabang 20.5 °C (
+
+
+[650]:  22%
+
+Passage: The 2008–09 season was the 100th season of the National Hockey League. The season began on October 4
+
+
+[676]:  12
+
+Passage: The Raiders were able to get back on track with a 27-17 win over the New York Jets. The Raiders scored on
+
+
+[702]:  1.7
+
+Passage: The city of Nashville is located in Davidson County, Tennessee, United States. The city is the county seat of Davidson County
+
+
+[728]:  10,000
+
+Passage: The population was spread out with 24.90% under the age of 18, 7.20% from
+
+
+[754]:  4 September
+
+Passage: The Raiders traveled to Tampa Bay looking to improve to 6-2 overall and 5-0 on the road on the
+
+
+[780]:  Tamil
+
+Passage: The 2011 census of India recorded a population of 1,210,000,000, making it the most populous country in
+
+
+[806]:  Hisahito
+
+Passage: The 2006 World Cup was the 16th edition of the FIFA World Cup, the quadrennial international football
+
+
+[832]:  2
+
+Passage: The Bengals began their season at Gillette Stadium for an AFC duel with the New England Patriots. In the first quarter, the Bengals
+
+
+[858]:  Derek Stanley
+
+Passage:  The 2009 NFL season was the 90th season of the National Football League. The season began on September 8
+
+
+[884]:  33 yards
+
+Passage:  The 49ers were looking to rebound from their loss to the Seahawks in Week 2.  They traveled to the
+
+
+[910]:  2
+
+Passage:  The Patriots took a 3-0 lead in the first quarter as Brady completed a 1-yard touchdown pass to wide receiver
+
+
+[936]:  Paraguay's hotel occupancy rate increased
+
+Passage: The 2004 World Cup was the 16th edition of the FIFA World Cup, the quadren
+
+
+[962]:  Non-Hispanic White
+
+Passage: The Ossetians are a Turkic people who live in the Caucasus Mountains of the Russian Federation. They are
+
+
+[988]:  Derry
+
+Passage: The 1st Battalion of the 1st Royal Dragoon Guards was formed in 1685. The 1st Battalion
+
+
+[1014]:  18
+
+Passage: The Chargers flew to Arrowhead Stadium for a Week 7 fight with their AFC West rival, the Kansas City Chiefs. In the
+
+
+[1040]:  Families
+
+Passage: The 2010 United States Census reported that the county had a population of 22,915. The population density was 37 people
+
+
+[1066]:  3
+
+Passage:  The 49ers began their season at the Georgia Dome for a Week 1 duel with the Atlanta Falcons.  San Francisco
+
+
+[1092]:  households
+
+Passage: The 2000 United States Census reported that the population of the county was 250,291. The population density was 298.
+
+
+[1118]:  10
+
+Passage: The 2006–07 season was the 100th season of the National Football League. The season began on September 8
+
+
+[1144]:  3
+
+Passage: The 49ers were coming off a 27-24 loss to the Bears in Chicago, and the 49ers were coming
+
+
+[1170]:  24
+
+Passage: The 2010 season was the 100th season of the National Football League. The 2010 season was the 100
+
+
+[1196]:  4th
+
+Passage:  The Chargers began their 2008 campaign at home against the Carolina Panthers.  After a scoreless first quarter, the
+
+
+[1222]:  Drew Brees
+
+Passage:  The 49ers' 49-17 win over the Rams was the first time the 49ers had won a
+
+
+[1248]:  25
+
+Passage: The 2006–07 season was the 100th season of the National Football League. The 2006 season was the
+
+
+[1274]:  2
+
+Passage: The Bears hosted the New York Giants in week 7, their first game since a 41-3 Bears victory in 201
+
+
+[1300]:  37.7%
+
+Passage: The 2010 United States Census reported that the county had a population of 37,762. The racial makeup of
+
+
+[1326]:  2.5%
+
+Passage: The county is located in the Pacific time zone, with the easternmost point of the county being in the Pacific Ocean.
+
+
+[1352]:  2
+
+Passage:  The Bills traveled to the Georgia Dome to take on the Atlanta Falcons.  The Bills started the game off with a 3
+
+
+[1378]:  10 October 1580
+
+Passage: The 2010 United States Census reported that Placer County had a population of 348,432. The
+
+
+[1404]:  39
+
+Passage: The 2006–07 season was the 100th season of the  National Football League. The 2006–07
+
+
+[1430]:  The Allies attacking at Monte Cassino
+
+Passage: The Allies had mixed success in mainland Asia. In March 1944, the Japanese launched the first of
+
+
+[1456]:  1,700
+
+Passage: The 2010 United States Census reported that Marin County had a population of 252,409. The racial makeup of
+
+
+[1482]:  18
+
+Passage: The 49ers were the first team to win 18 games in a season since the 1985 Chicago Bears, who went
+
+
+[1508]:  5
+
+Passage:  The 2006 season was the first time in the history of the NFL that the league's two highest-paid players were not
+
+
+[1534]:  Manhattan
+
+Passage: The Raiders traveled to Baltimore looking to win their third straight road game to open the season for the first time since 2000. The
+
+
+[1560]:  10.68%
+
+Passage: The New York Jets came into a crucial divisional matchup with the Buffalo Bills, with added importance after the season opening loss
+
+
+[1586]:  4
+
+Passage:  The Steelers began their anniversary season on the road against their AFC North foe, the Cleveland Browns, for Round 1 of the
+
+
+[1612]:  12 million
+
+Passage: The 2008 presidential election was the first in which the Democratic Party nominated a woman for president, and the first time a
+
+
+[1638]:  Non-families
+
+Passage: The 2000 census reported that 1,000,000 people lived in the city.  The 2010 census
+
+
+[1664]:  26
+
+Passage:  After a Week 16 bye, the Ravens flew to the Georgia Dome for a Week 17 interconference duel with the Atlanta
+
+
+[1690]:  3.6%
+
+Passage: The 2016 United States presidential election was the 45th quadrennial presidential election, held on Tuesday,
+
+
+[1716]:  47
+
+Passage: The 2005 National League Division Series featured a rematch of the 2004 National League Championship Series. The Astros lost the first
+
+
+[1742]:  89.4
+
+Passage: The 2008 United States presidential election was the 56th quadrennial presidential election, held on Tuesday,
+
+
+[1768]:  65 years of age or older
+
+Passage: The median age in the city was 22.1 years. 10.1% of residents were
+
+
+[1794]:  Inner Provinces, Outer Provinces and Tributary States
+
+Passage: The 2008–09 season was the 100th season of the National
+
+
+[1820]:  2
+
+Passage: The 2004–05 season was the 100th season of play in the National Hockey League. The season began on October
+
+
+[1846]:  Defense
+
+Passage:  Starting lineups: HOUSTON - OFFENSE: QB Matt Schaub, LT Duane Brown, LG Wade Smith, C
+
+
+[1872]:  100 years
+
+Passage: The Dutch East Indies was the first country in the world to use a modern system of road signs. The first road signs were
+
+
+[1898]:  2
+
+Passage:  The 49ers traveled to the New York Giants for a Week 2 matchup.  The Giants jumped out to a 
+
+
+[1924]:  8
+
+Passage:  The Vikings traveled to the Meadowlands to take on the Giants.  The Giants would score first as Eli Manning would throw a
+
+
+[1950]:  0
+
+Passage:  The 49ers were able to get the ball back and score a touchdown on their first possession of the game.  The
+
+
+[1976]:  3
+
+Passage: The 2008 season was the first time the Seahawks had a losing record since 2001.  In the first quarter,
+
+
+[2002]:   30,000
+
+Passage: The next day, the Japanese army began to attack the city of Pyongyang. The Japanese army was led by the Gener
+
+
+[2028]:  0
+
+Passage: The Broncos traveled to the New York Giants for a Week 14 matchup on December 11. The Broncos won 24-17
+
+
+[2054]:  2006-07 FA Cup
+
+Passage: The 2005-06 FA Cup was the 84th season of the FA Cup, the world
+
+
+[2080]:  12.0%
+
+Passage: The population of the United States in 2010 was 308,745,538, an increase of 9.
+
+
+[2106]:  2
+
+Passage:  Coming off their home win over the Redskins, the Falcons flew to Bank of America Stadium for a Week 10 NFC South rematch
+
+
+[2132]:  3
+
+Passage: The 49ers opened the season with a 27-20 win over the New York Giants.  The Giants started off the
+
+
+[2158]:  134535 and 21165
+
+Passage: The 2014 census recorded 1,144,428 residents or 38,2% live in
+
+
+[2184]:  People
+
+Passage: The 2000 United States Census reported that the county had a population of 15,557. The population density was 46 people
+
+
+[2210]:  his younger brother, lord of Yamethin
+
+Passage: The 2006 season was the first season in the history of the NFL that the league's
+
+
+[2236]:  Chargers
+
+Passage:  The Chargers at home, donned their throwback jerseys and played a Week 9 fight against the Cleveland Browns.  In the
+
+
+[2262]:  2
+
+Passage:  The 49ers flew to the Meadowlands for a NFC duel with the Giants. In the first quarter the 49ers
+
+
+[2288]:  1
+
+Passage:  The New York Giants (7-5) will host the Philadelphia Eagles (6-6) on Sunday at 1 p
+
+
+[2314]:  1.5%
+
+Passage: The 2010 census reported that the city had a population of 1,000,000.  The population density
+
+
+[2340]:  9.1%
+
+Passage: The Falcons' first regular season game, against the New Orleans Saints, started off with a Falcons field goal at the end
+
+
+[2366]:  24
+
+Passage: The Patriots' defense held the Jets to 3 points in the first half, but the Jets scored 3 touchdowns in the second
+
+
+[2392]:  Smith
+
+Passage: The 49ers were the first team to win the Super Bowl in their home stadium, and the first team to win the Super Bowl
+
+
+[2418]:  3
+
+Passage:  The Raiders flew to Invesco Field at Mile High for an AFC West duel with the Denver Broncos.  In the first
+
+
+[2444]:  97 yards
+
+Passage:  Coming off their divisional home win over the Panthers, the Saints flew to the Edward Jones Dome for a Week 10
+
+
+[2470]:  28.3%
+
+Passage: The 2011 season was the 102nd season of the National Football League. The 2011 season began on
+
+
+[2496]:  White American and African American or African American
+
+Passage: The 2010 Census reported that the population of the city was 1,000,000.
+
+
+[2522]:  54.3%
+
+Passage: The 2010 census showed that 1.2 million people lived in the city, 1.1 million of
+
+
+[2548]:   Hawaii
+
+Passage: The 49ers first road game of the year ends in a disaster. The 49ers defense had no answer for Ben Ro
+
+
+[2574]:  6
+
+Passage:  The 7-2, NFC North-leading Lions flew to Phoenix to face the NFC West's first place team, the 
+
+
+[2600]:  1,010
+
+Passage: The 2006–07 season was the 100th season of the National Football League. The season began on September
+
+
+[2626]:  2009
+
+Passage: In the 2013 gubernatorial election, 2013, Democrat Barbara Buono received 75.9% of the
+
+
+[2652]:  1
+
+Passage: The 2008-2009 season was the 100th season of the National Football League. The 2008-200
+
+
+[2678]:  0
+
+Passage: The 2011 census of the Republic of Macedonia recorded 2,000,000 inhabitants, of which 1,000,
+
+
+[2704]:  18-24
+
+Passage: The ages of New Havens residents are 25.4% under the age of 18, 16.4
+
+
+[2730]:  1,000
+
+Passage: The 2008 Summer Olympics were held in Beijing, China. The 2008 Summer Olympics was the 30th
+
+
+[2756]:  3
+
+Passage: The 1964 college football season season ended with a 12-7 victory over Ole Miss in the 1964 Sugar Bowl
+
+
+[2782]:  2
+
+Passage:  The 2014-15 season was the 125th season of the National Hockey League. The season began on October 
+
+
+[2808]:  3
+
+Passage:  The Lions stayed at home for a Week 3 duel with the New York Giants.  Detroit delivered the opening shot of the
+
+
+[2834]:  10
+
+Passage: The 2012–13 season was the 25th season in the history of the New York Knicks. The Knicks finished the
+
+
+[2860]:  11
+
+Passage: The 2008 NFL season was the 89th season of the National Football League. The regular season began on September 8
+
+
+[2886]:  7,953
+
+Passage: The 2010 United States Census reported that the county had a population of 22,915. The population density was
+
+
+[2912]:  1
+
+Passage:  Coming off their bye week, the Steelers traveled back home to take on the Saints.  In the first quarter, the Steelers
+
+
+[2938]:  3
+
+Passage:  The Patriots began their season at Gillette Stadium for a Week 1 duel with the New York Jets.  New England trailed
+
+
+[2964]:  7.8
+
+Passage: The 2008 season was the 100th season of the National Football League. The 2008 NFL season was
+
+
+[2990]:  1569
+
+Passage: The 2007 season was the 100th season of the NFL. The 2007 season was the 100th
+
+
+[3016]:  3,155
+
+Passage: The 2008–09 NHL season was the 90th season of the National Hockey League. The season began on
+
+
+[3042]:  1 yard
+
+Passage:  The New York Jets and the Cleveland Browns met in Week 10 of the 2012 NFL season. The Jets won
+
+
+[3068]:  29 yards
+
+Passage:  The Redskins flew to the Georgia Dome for a Week 8 match-up with the Atlanta Falcons. In the 1st
+
+
+[3094]:  9
+
+Passage: The 49ers' first game of the season was against the  Green Bay Packers. The 49ers won the game 
+
+
+[3120]:  0.11%
+
+Passage: The 2000 United States Census reported that there were 1,000 people, 400 households, and 270
+
+
+[3146]:  1,875
+
+Passage: The population consisted of 5,841 people (25.3%) under age 18, 1,875 people
+
+
+[3172]:  Joe Nedney
+
+Passage:  The 49ers' 2007 season was a disappointment, as they finished with a 7-9 record.
+
+
+[3198]:  3.71%
+
+Passage: The 2010 World Series was the championship series of Major League Baseball's (MLB) 2010 season,
+
+
+[3224]:  0.0%
+
+Passage: The 2015 season was the 100th season of the National Football League. The season began on September 6
+
+
+[3250]:  Mobile games
+
+Passage: The 2015 NFL Draft was held on April 30, 2015, at the University of Phoenix Stadium in Glendale
+
+
+[3276]:  10%
+
+Passage: The 2016 United States presidential election was the 45th quadrennial presidential election, held on Tuesday, November 
+
+
+[3302]:  5,771
+
+Passage: The 2006 NFL season was the 87th regular season of the National Football League.  The season began on
+
+
