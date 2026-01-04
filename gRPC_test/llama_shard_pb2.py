@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11llama_shard.proto\"@\n\nTensorData\x12\x14\n\x0ctensor_bytes\x18\x01 \x01(\x0c\x12\r\n\x05shape\x18\x02 \x03(\x05\x12\r\n\x05\x64type\x18\x03 \x01(\t\"\x1c\n\x0bInitRequest\x12\r\n\x05layer\x18\x01 \x01(\x05\"w\n\rHiddenRequest\x12\x18\n\x03hid\x18\x01 \x01(\x0b\x32\x0b.TensorData\x12\x18\n\x03\x61tt\x18\x02 \x01(\x0b\x32\x0b.TensorData\x12\x18\n\x03pos\x18\x03 \x01(\x0b\x32\x0b.TensorData\x12\x18\n\x03gen\x18\x04 \x01(\x0b\x32\x0b.TensorData\"^\n\x0eHiddenResponse\x12\x18\n\x03\x61tt\x18\x02 \x01(\x0b\x32\x0b.TensorData\x12\x18\n\x03pos\x18\x03 \x01(\x0b\x32\x0b.TensorData\x12\x18\n\x03gen\x18\x04 \x01(\x0b\x32\x0b.TensorData\"\x17\n\x08Init_res\x12\x0b\n\x03res\x18\x63 \x01(\x05\")\n\nTestTensor\x12\x1b\n\x06tensor\x18\x01 \x01(\x0b\x32\x0b.TensorData2\x99\x01\n\x0cShardService\x12)\n\x0eInitConnection\x12\x0c.InitRequest\x1a\t.Init_res\x12\x30\n\rProcessHidden\x12\x0e.HiddenRequest\x1a\x0f.HiddenResponse\x12,\n\x10TestTensorMethod\x12\x0b.TestTensor\x1a\x0b.TestTensorb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11llama_shard.proto\"@\n\nTensorData\x12\x14\n\x0ctensor_bytes\x18\x01 \x01(\x0c\x12\r\n\x05shape\x18\x02 \x03(\x05\x12\r\n\x05\x64type\x18\x03 \x01(\t\"\x1c\n\x0bInitRequest\x12\r\n\x05layer\x18\x01 \x01(\x05\"w\n\rHiddenRequest\x12\x18\n\x03hid\x18\x01 \x01(\x0b\x32\x0b.TensorData\x12\x18\n\x03\x61tt\x18\x02 \x01(\x0b\x32\x0b.TensorData\x12\x18\n\x03pos\x18\x03 \x01(\x0b\x32\x0b.TensorData\x12\x18\n\x03gen\x18\x04 \x01(\x0b\x32\x0b.TensorData\"\x84\x01\n\x0eHiddenResponse\x12\x18\n\x03\x61tt\x18\x02 \x01(\x0b\x32\x0b.TensorData\x12\x18\n\x03pos\x18\x03 \x01(\x0b\x32\x0b.TensorData\x12\x18\n\x03gen\x18\x04 \x01(\x0b\x32\x0b.TensorData\x12\x11\n\ttime_less\x18\x01 \x01(\x01\x12\x11\n\ttime_more\x18\x05 \x01(\x01\"\x17\n\x08Init_res\x12\x0b\n\x03res\x18\x63 \x01(\x05\")\n\nTestTensor\x12\x1b\n\x06tensor\x18\x01 \x01(\x0b\x32\x0b.TensorData2\x99\x01\n\x0cShardService\x12)\n\x0eInitConnection\x12\x0c.InitRequest\x1a\t.Init_res\x12\x30\n\rProcessHidden\x12\x0e.HiddenRequest\x1a\x0f.HiddenResponse\x12,\n\x10TestTensorMethod\x12\x0b.TestTensor\x1a\x0b.TestTensorb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -37,12 +37,12 @@ if not _descriptor._USE_C_DESCRIPTORS:
   _globals['_INITREQUEST']._serialized_end=115
   _globals['_HIDDENREQUEST']._serialized_start=117
   _globals['_HIDDENREQUEST']._serialized_end=236
-  _globals['_HIDDENRESPONSE']._serialized_start=238
-  _globals['_HIDDENRESPONSE']._serialized_end=332
-  _globals['_INIT_RES']._serialized_start=334
-  _globals['_INIT_RES']._serialized_end=357
-  _globals['_TESTTENSOR']._serialized_start=359
-  _globals['_TESTTENSOR']._serialized_end=400
-  _globals['_SHARDSERVICE']._serialized_start=403
-  _globals['_SHARDSERVICE']._serialized_end=556
+  _globals['_HIDDENRESPONSE']._serialized_start=239
+  _globals['_HIDDENRESPONSE']._serialized_end=371
+  _globals['_INIT_RES']._serialized_start=373
+  _globals['_INIT_RES']._serialized_end=396
+  _globals['_TESTTENSOR']._serialized_start=398
+  _globals['_TESTTENSOR']._serialized_end=439
+  _globals['_SHARDSERVICE']._serialized_start=442
+  _globals['_SHARDSERVICE']._serialized_end=595
 # @@protoc_insertion_point(module_scope)

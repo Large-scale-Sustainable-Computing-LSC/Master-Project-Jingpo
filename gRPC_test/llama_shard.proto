@@ -21,6 +21,8 @@ message HiddenResponse {
     TensorData att = 2;
     TensorData pos = 3;
     TensorData gen = 4;
+    double time_less = 1;
+    double time_more = 5;
 }
 
 message Init_res {

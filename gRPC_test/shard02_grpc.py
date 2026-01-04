@@ -15,19 +15,22 @@ def monitor_resources(filename):
     """资源监控函数，每秒记录一次数据"""
     with open(filename, 'w') as f:
         f.write("timestamp,memory_usage_mb,gpu_memory_mb\n")  # 表头
-        while True:
-            # 获取内存使用（单位：MB）
-            memory_mb = psutil.virtual_memory().used / (1024 ** 2)
-            # 获取GPU显存使用（单位：MB）
-            if torch.cuda.is_available():
-                gpu_mem_mb = torch.cuda.memory_allocated() / (1024 ** 2)
-            else:
-                gpu_mem_mb = 0
-            # 写入数据
-            timestamp = time.time()
-            f.write(f"{timestamp},{memory_mb:.2f},{gpu_mem_mb:.2f}\n")
-            f.flush()  # 确保实时写入
-            time.sleep(1)
+        try:
+            while True:
+                # 获取内存使用（单位：MB）
+                memory_mb = psutil.virtual_memory().used / (1024 ** 2)
+                # 获取GPU显存使用（单位：MB）
+                if torch.cuda.is_available():
+                    gpu_mem_mb = torch.cuda.memory_allocated() / (1024 ** 2)
+                else:
+                    gpu_mem_mb = 0
+                # 写入数据
+                timestamp = time.time()
+                f.write(f"{timestamp},{memory_mb:.2f},{gpu_mem_mb:.2f}\n")
+                f.flush()  # 确保实时写入
+                time.sleep(1)
+        finally:
+            f.close()
 
 
 class ShardServicer(llama_shard_pb2_grpc.ShardServiceServicer):
@@ -36,8 +39,24 @@ class ShardServicer(llama_shard_pb2_grpc.ShardServiceServicer):
         self.past_key_values = None
         self.layer_to_split = 0
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        self.monitor_started = False  # 新增：监控启动标志
+        self.monitor_thread = None    # 新增：监控线程句柄
+        #self.monitor_stop_event = threading.Event()  # 新增：停止信号
+        self.monitor_lock = threading.Lock()  # 新增：线程安全锁
         
     def InitConnection(self, request, context):
+
+        with self.monitor_lock:
+            if not self.monitor_started:
+                #self.monitor_stop_event.clear()  # 重置停止信号
+                self.monitor_thread = threading.Thread(
+                    target=monitor_resources,
+                    args=("log_cuda/shard02_cuda.csv",),
+                    daemon=True
+                )
+                self.monitor_thread.start()
+                self.monitor_started = True
+
         if request.layer != self.layer_to_split:
             self.model = LlamaForCausalLM.from_pretrained("../Llama-3.2-3B")
             self.model.model.layers = self.model.model.layers[request.layer:]
@@ -59,12 +78,16 @@ class ShardServicer(llama_shard_pb2_grpc.ShardServiceServicer):
             tensor = torch.load(BytesIO(tensor_data.tensor_bytes))
             return tensor.to(self.device)
             
+        de_start = time.time()
+
         hidden = deserialize_tensor(request.hid)
         att = deserialize_tensor(request.att)
         pos = deserialize_tensor(request.pos)
         gen = deserialize_tensor(request.gen)
         #gen = None
         
+        inf_start = time.time()
+
         with torch.no_grad():
             outputs = self.model(
                 inputs_embeds=hidden,
@@ -81,6 +104,8 @@ class ShardServicer(llama_shard_pb2_grpc.ShardServiceServicer):
         gen = torch.cat([gen, next_token], dim=-1)
         att = torch.cat([att, torch.ones_like(next_token)], dim=-1)
         pos = torch.tensor([[gen.shape[1] - 1]], device=self.device)
+
+        time_less = time.time() - inf_start
         
         def serialize_tensor(tensor):
             buffer = BytesIO()
@@ -95,7 +120,9 @@ class ShardServicer(llama_shard_pb2_grpc.ShardServiceServicer):
             #tok=serialize_tensor(next_token),
             att=serialize_tensor(att),
             pos=serialize_tensor(pos),
-            gen=serialize_tensor(gen)
+            gen=serialize_tensor(gen),
+            time_less = time_less,
+            time_more = time.time() - de_start,
         )
     
     def TestTensorMethod(self, request, context):
@@ -119,11 +146,11 @@ class ShardServicer(llama_shard_pb2_grpc.ShardServiceServicer):
 def serve():
 
     # 启动资源监控线程
-    monitor_thread = threading.Thread(
-        target=monitor_resources,
-        args=(f"resource_log_cuda.csv",),  # 保存到当前目录的 resource_log.csv
-        daemon=True  # 设为守护线程，主线程退出时自动终止
-    )
+    #monitor_thread = threading.Thread(
+    #    target=monitor_resources,
+    #    args=(f"resource_log_cuda.csv",),  # 保存到当前目录的 resource_log.csv
+    #    daemon=True  # 设为守护线程，主线程退出时自动终止
+    #)
     #monitor_thread.start()
 
     options = [
