@@ -13,11 +13,10 @@ import threading
 import psutil     
 import time       
 
-# 配置参数
 MODEL_PATH = "../Llama-3.2-3B"
 LAYER_TO_SPLIT = 12
-DEVICE = torch.device("mps")  # 根据设备类型调整
-TARGET_IP = "145.100.135.35"
+DEVICE = torch.device("mps")      # Adjust according to device type
+TARGET_IP = "0.0.0.0"              # IP
 MAX_NEW_TOKENS = 32
 
 TEST_SET  = "meta-llama/Llama-3.2-3B-evals"
@@ -27,17 +26,14 @@ MAX_QUESTIONS = 128
 STEP_SIZE = 26
 
 def monitor_resources(filename):
-    """资源监控函数，每秒记录一次数据"""
     with open(filename, 'w') as f:
         f.write("timestamp,memory_usage_mb\n")  
         try:
             while True:
-                # 获取内存使用（单位：MB）
                 memory_mb = psutil.virtual_memory().used / (1024 ** 2)
-                # 写入数据
                 timestamp = time.time()
                 f.write(f"{timestamp},{memory_mb:.2f}\n")
-                f.flush()  # 确保实时写入
+                f.flush() 
                 time.sleep(1)
         finally:
             f.close()
@@ -52,7 +48,7 @@ class ShardClient:
         self.stub = llama_shard_pb2_grpc.ShardServiceStub(self.channel)
         
     def _serialize_tensor(self, tensor):
-        """将PyTorch张量序列化为gRPC消息"""
+        """tensor -> gRPC"""
         tensor = tensor.detach().cpu()
         buffer = BytesIO()
         torch.save(tensor, buffer)
@@ -67,12 +63,12 @@ class ShardClient:
         )
     
     def _deserialize_tensor(self, tensor_data, device):
-        """反序列化gRPC消息为PyTorch张量"""
+        """gRPC -> tensor"""
         tensor = torch.load(BytesIO(tensor_data.tensor_bytes))
         return tensor.to(device)
     
     def init_connection(self, layer):
-        """初始化分片连接"""
+        """initialization"""
         request = llama_shard_pb2.InitRequest(
             layer=layer,
             #att=self._serialize_tensor(att),
@@ -80,12 +76,12 @@ class ShardClient:
             #gen=self._serialize_tensor(gen)
             )
         #self.stub.InitConnection(request)
-        response = self.stub.InitConnection(request)  # 捕获响应
+        response = self.stub.InitConnection(request) 
         return response
 
     
     def process_hidden(self, hid, att, pos, gen, device):
-        """处理隐藏层请求"""
+        """process hidden"""
         #print("hid, att, pos, gen: ")
         request = llama_shard_pb2.HiddenRequest(
             hid=self._serialize_tensor(hid),
@@ -109,18 +105,18 @@ class ShardClient:
     
     def test_tensor(self, tensor, device):
         tensor_pb = self._serialize_tensor(tensor)
-        request = llama_shard_pb2.TestTensor(tensor=tensor_pb)  # 使用正确的消息类
+        request = llama_shard_pb2.TestTensor(tensor=tensor_pb)  
         response = self.stub.TestTensorMethod(request)
         return self._deserialize_tensor(response.tensor, device)
 
-# 初始化gRPC客户端
+# init client
 client = ShardClient(TARGET_IP)
 
 
 def run(model, tokenizer, question):
     #prefill_start = time.time()
     
-    # 初始文本处理
+
     inputs = tokenizer(question, return_tensors="pt")
     input_ids = inputs.input_ids.to(DEVICE)
     attention_mask = inputs.attention_mask.to(DEVICE)
@@ -130,7 +126,7 @@ def run(model, tokenizer, question):
     #size_bytes = generated_text.storage().nbytes()
     #print(f"generated_text: {size_bytes} bytes")
 
-    # 清理缓存
+    # clean cache
     """ if 'past_key_values' in locals():
         del past_key_values
     torch.mps.empty_cache()
@@ -138,7 +134,7 @@ def run(model, tokenizer, question):
     
     past_key_values = None
 
-    # 初始化分片连接
+    # init connection
     init_res = client.init_connection(
         layer=LAYER_TO_SPLIT,
         #att=attention_mask,
@@ -168,12 +164,12 @@ def run(model, tokenizer, question):
 
 
 
-    # 生成循环
+    # generate
     with torch.no_grad():
         for _ in range(MAX_NEW_TOKENS):
             token_start = time.time()
             
-            # 本地前向计算
+            # local forward
             #print(past_key_values == None)
             outputs = model(
                 input_ids=generated_text[:, -1:] if past_key_values else generated_text,
@@ -184,7 +180,7 @@ def run(model, tokenizer, question):
                 output_hidden_states=True
             )
             
-            # 获取隐藏层并发送给分片
+            # hidden -> cloud
             last_hidden = outputs.hidden_states[-1]
             #print(last_hidden)
             past_key_values = outputs.past_key_values
@@ -197,7 +193,7 @@ def run(model, tokenizer, question):
             else:
                 timing_metrics['shard01_following'] += s01_time
 
-            # 调用gRPC服务
+            # gRPC
             res = client.process_hidden(
                 hid=last_hidden,
                 att=attention_mask,
@@ -206,7 +202,7 @@ def run(model, tokenizer, question):
                 device=DEVICE
             )
             
-            # 更新生成状态
+            # update
             #next_token = res['tok']
             generated_text = res['gen']
             attention_mask = res['att']
@@ -224,7 +220,7 @@ def run(model, tokenizer, question):
             timing_metrics['shard02_in'] += time_less
 
             
-            # 记录时间
+            # time
             token_time = time.time() - token_start
             if timing_metrics['first_token'] == 0:
                 timing_metrics['first_token'] = token_time
@@ -238,7 +234,6 @@ def run(model, tokenizer, question):
                 timing_metrics['shard02_de_f'] += time_more
                 timing_metrics['shard02_in_f'] += time_less
     
-    # 解码结果
     #print(generated_text)
     output_text = tokenizer.decode(
         generated_text[0][inputs.input_ids.shape[1]:],
@@ -253,29 +248,29 @@ if __name__ == '__main__':
     #res_tensor = client.test_tensor(rand_tensor,DEVICE)
     #print(f"res_tensor: {res_tensor}")
 
-    # 启动资源监控线程
+    # start monitor
     monitor_thread = threading.Thread(
         target=monitor_resources,
-        args=(f"../finalRes/log_3B_{LAYER_TO_SPLIT}/shard01_mps.csv", ),  # 保存到当前目录的 resource_log.csv
-        daemon=True  # 设为守护线程，主线程退出时自动终止
+        args=(f"../finalRes/log_3B_{LAYER_TO_SPLIT}/shard01_mps.csv", ),  
+        daemon=True  
     )
     monitor_thread.start()
 
     print("Loading model ...")
 
 
-    # 初始化模型
+    # init model
     model = LlamaModel.from_pretrained(MODEL_PATH)
     model.layers = model.layers[:LAYER_TO_SPLIT]
-    model.norm = nn.Identity()  # 跳过归一化层
+    model.norm = nn.Identity()  # fake norm
     model.eval()
     model.to(DEVICE)
     
-    # 初始化tokenizer
+    # tokenizer
     tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
     tokenizer.pad_token = tokenizer.eos_token
     
-    # 加载数据集
+    # data set
     dataset = load_dataset(TEST_SET, 
         name = DATA_NAME,
         split = "latest"
@@ -301,13 +296,13 @@ if __name__ == '__main__':
     s01_follow = 0
 
     start_time_0 = time.time()
-    # 执行推理
+    # start inference
 
     outputFile = f"../finalRes/log_3B_{LAYER_TO_SPLIT}/output.txt"
     with open(outputFile, 'w') as outf:
         outf.write("output\n")
 
-        for idx in range(DATA_TO_START, DATA_TO_START + (MAX_QUESTIONS)*STEP_SIZE, STEP_SIZE):  # 示例运行4个问题
+        for idx in range(DATA_TO_START, DATA_TO_START + (MAX_QUESTIONS)*STEP_SIZE, STEP_SIZE):  
             question = dataset["input_final_prompts"][idx]
             print(f"\nProcessing question {idx}: ...")
             
@@ -405,7 +400,6 @@ Overall Speed:
 
 """     save_path =f"log_{LAYER_TO_SPLIT}/results.txt"
 
-    # 将结果写入文件
     with open(save_path, 'w', encoding='utf-8') as f_res:
         f_res.write(result_content)
         f_res.close() """
