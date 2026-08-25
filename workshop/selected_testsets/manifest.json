@@ -1,0 +1,34 @@
+{
+  "out_dir": "/home/jxu210/workshop/testSet/selected_testsets",
+  "count_mode": "plain",
+  "add_special_tokens": false,
+  "length_check": true,
+  "llama_tokenizer": "meta-llama/Llama-3.1-8B",
+  "qwen_tokenizer": "Qwen/Qwen3.5-9B",
+  "groups": [
+    {
+      "group_name": "wildgpt4",
+      "source": "mlabonne/WildGPT-4",
+      "candidate_file": "short_candidates_wildgpt4_16_128_rel10.csv",
+      "samples_file": "wildgpt4_samples.jsonl",
+      "count": 2314,
+      "files": {
+        "raw_inputs": "/home/jxu210/workshop/testSet/selected_testsets/wildgpt4/raw_inputs.jsonl",
+        "llama_tokenized": "/home/jxu210/workshop/testSet/selected_testsets/wildgpt4/llama_tokenized.jsonl",
+        "qwen_tokenized": "/home/jxu210/workshop/testSet/selected_testsets/wildgpt4/qwen_tokenized.jsonl"
+      }
+    },
+    {
+      "group_name": "longreason",
+      "source": "lz1bytedance/LongReason",
+      "candidate_file": "long_candidates_longreason_4096_6144_rel05_gap256.csv",
+      "samples_file": "longreason_samples.jsonl",
+      "count": 632,
+      "files": {
+        "raw_inputs": "/home/jxu210/workshop/testSet/selected_testsets/longreason/raw_inputs.jsonl",
+        "llama_tokenized": "/home/jxu210/workshop/testSet/selected_testsets/longreason/llama_tokenized.jsonl",
+        "qwen_tokenized": "/home/jxu210/workshop/testSet/selected_testsets/longreason/qwen_tokenized.jsonl"
+      }
+    }
+  ]
+}
